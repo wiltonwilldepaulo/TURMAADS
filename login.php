@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AdminLTE 3 | Log in (v2)</title>
+    <title>Aula 4 período</title>
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <!-- Font Awesome -->
@@ -14,22 +14,19 @@
     <!-- Theme style -->
     <link rel="stylesheet" href="templete/AdminLTE-3.1.0/dist/css/adminlte.min.css">
 </head>
-
 <body class="hold-transition login-page">
     <div class="login-box">
         <!-- /.login-logo -->
         <div class="card card-outline card-primary">
             <div class="card-header text-center">
-                <a href="../../index2.html" class="h1"><b>Admin</b>LTE</a>
+                <a class="h1"><b>Admin</b>LTE</a>
             </div>
             <div class="card-body">
                 <div class="callout callout-warning">
-                    <h5>Atenção!</h5>
-
-                    <p>Todos os campo sinalizados com ** são obrigatorios.</p>
+                    <h3>Atenção!</h3>
+                    <p>Campo com ** são obrigatórios.</p>
                 </div>
-
-                <form action="../../index3.html" method="post">
+                <form method="post">
                     <div class="input-group mb-3">
                         <input type="email" class="form-control" placeholder="Digite seu Celular ou E-mail *">
                         <div class="input-group-append">
@@ -51,15 +48,15 @@
                         <!-- /.col -->
                         <div class="col-12">
                             <button type="submit" class="btn btn-primary btn-block">Sign In</button>
-                        </div>
+                        </div> 
                         <!-- /.col -->
                     </div>
                 </form> 
-                <p class="mb-2">
-                    <a href="register.html" class="text-center">Register a new membership</a>
+                <p class="mt-4 mb-2">
+                    <a href="#" class="text-center">Ainda não tenho conta</a>
                 </p>
-                <p class="mb-0">
-                    <a href="register.html" class="text-center">Register a new membership</a>
+                <p class="mt-0">
+                    <a href="#" class="text-center">Esqueci a senha</a>
                 </p>
             </div>
             <!-- /.card-body -->
