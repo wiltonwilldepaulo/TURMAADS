@@ -52,8 +52,9 @@
                         <!-- /.col -->
                     </div>
                 </form> 
-                <p class="mt-4 mb-2">
-                    <a href="#" class="text-center">Ainda não tenho conta</a>
+                <p class="mt-4 mb-2 col-12">
+                <!--target="_blank"-->    
+                <a href="cadastro.php" class="btn btn-success col-12">Ainda não tenho conta</a>
                 </p>
                 <p class="mt-0">
                     <a href="#" class="text-center">Esqueci a senha</a>
