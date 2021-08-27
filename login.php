@@ -16,10 +16,7 @@
                 <a class="h1"><b>Admin</b>LTE</a>
             </div>
             <div class="card-body">
-                <div class="callout callout-warning">
-                    <h3>Atenção!</h3>
-                    <p>Campo com ** são obrigatórios.</p>
-                </div>
+                <?php include_once "alert.php"; ?>
                 <form method="post">
                     <div class="input-group mb-3">
                         <input type="email" class="form-control" placeholder="Digite seu Celular ou E-mail *">

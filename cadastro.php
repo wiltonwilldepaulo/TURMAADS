@@ -18,8 +18,7 @@
                     <a href="../../index2.html" class="h1"><b>Admin</b>LTE</a>
                 </div>
                 <div class="card-body">
-                    <p class="login-box-msg">Register a new membership</p>
-
+                    <?php include_once "alert.php"; ?>
                     <form method="post">
                         <div class="input-group mb-3">
                             <input name="edtnome" id="edtnome" type="text" class="form-control" placeholder="Digite seu nome e sobre nome*">
