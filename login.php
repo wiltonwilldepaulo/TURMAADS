@@ -14,6 +14,7 @@
     <!-- Theme style -->
     <link rel="stylesheet" href="templete/AdminLTE-3.1.0/dist/css/adminlte.min.css">
 </head>
+
 <body class="hold-transition login-page">
     <div class="login-box">
         <!-- /.login-logo -->
@@ -44,17 +45,20 @@
                         </div>
                     </div>
                     <div class="row">
-                        
+
                         <!-- /.col -->
                         <div class="col-12">
-                            <button type="submit" class="btn btn-primary btn-block">Sign In</button>
-                        </div> 
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fas fa-sign-in-alt"></i>
+                                Login
+                            </button>
+                        </div>
                         <!-- /.col -->
                     </div>
-                </form> 
+                </form>
                 <p class="mt-4 mb-2 col-12">
-                <!--target="_blank"-->    
-                <a href="cadastro.php" class="btn btn-success col-12">Ainda não tenho conta</a>
+                    <!--target="_blank"-->
+                    <a href="cadastro.php" class="btn btn-success col-12">Ainda não tenho conta</a>
                 </p>
                 <p class="mt-0">
                     <a href="#" class="text-center">Esqueci a senha</a>
