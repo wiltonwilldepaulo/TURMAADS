@@ -19,9 +19,9 @@
                 </div>
                 <div class="card-body">
                     <?php include_once "alert.php"; ?>
-                    <form method="post">
+                    <form method="post" name="frmcadastro" id="frmcadastro">
                         <div class="input-group mb-3">
-                            <input name="edtnome" id="edtnome" type="text" class="form-control" placeholder="Digite seu nome e sobre nome*">
+                            <input required autofocus name="edtnome" id="edtnome" type="text" class="form-control" placeholder="Digite seu nome e sobre nome*">
                             <div class="input-group-append">
                                 <div class="input-group-text">
                                     <span class="fas fa-user"></span>
@@ -54,14 +54,14 @@
                                 </div>
                             </div>
                         </div>
-                    </form>
 
-                    <div class="social-auth-links text-center">
-                        <button name="bntsalvar" id="bntsalvar" type="submit" class="btn btn-block btn-primary">
-                            <i class="fas fa-plus mr-2"></i>
-                            Cadastrar
-                        </button>
-                    </div>
+                        <div class="social-auth-links text-center">
+                            <button name="bntsalvar" id="bntsalvar" type="submit" class="btn btn-block btn-primary">
+                                <i class="fas fa-plus mr-2"></i>
+                                Salvar
+                            </button>
+                        </div>
+                    </form>
                     <div class="social-auth-links text-center">
                         <a href="login.php" type="button" class="btn btn-block btn-warning">
                             <i class="fas fa-ban"></i>
@@ -72,7 +72,9 @@
                 <!-- /.form-box -->
             </div><!-- /.card -->
         </div>
+        <!-- Valida os dados do forulário e caso seja valido salva os dado no banco de dados -->
         <?php include_once "jspadrao.php"; ?>
+        <script src="js/cadastro.js"></script>
     </body>
 
 </html>
